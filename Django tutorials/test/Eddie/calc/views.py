@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return render(request, "home.html", {"Name":"Mr Hanson"}) 
+    return render(request, "home.html", {"Name":"Mr Hanson"})
 
 def add(request):
     val1=int(request.POST ['num1'])
