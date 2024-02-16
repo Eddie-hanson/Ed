@@ -1,4 +1,4 @@
-"# Eddie-hanson" 
+# Eddie-hanson 
 # Learning Python Repository
 ## Introduction
 Welcome to the "Eddie" repository! This repository documents my journey as I delve into the world of Python programming. Whether you are a beginner looking for resources or an experienced developer interested in following my progress, this repository aims to be a comprehensive and organized guide to my learning process.
