@@ -6,7 +6,7 @@
 #     .
 #     <statement-N>
 
-class register:
+class Register:
     def __init__(self, name, timeIn, signOutTime):
         self.name = name
         self.timeIn = timeIn
@@ -16,6 +16,6 @@ class register:
         return f" Client name: {edward.name}\n Reported at: {edward.timeIn} \n Signed out at {edward.signOutTime}"
 
 
-edward = register(input("Enter Name: "), input(
+edward = Register(input("Enter Name: "), input(
     "Enter time reported: "), input("Time signed out: "))
 print(edward)
